@@ -1,0 +1,46 @@
+item_id,name,category,color_family,style_tags,occasion_tags,seasonality,warmth,formality,image_path
+1,Navy Blazer,outerwear,blue,tailored|classic,work|date|formal,all,2,5,data/images/navy_blazer.jpg
+2,Black Suit Jacket,outerwear,black,tailored|classic,work|formal,all,2,5,data/images/blk_suit_jkt.jpg
+3,Black Leather Jacket,outerwear,black,edgy|modern,casual|date,fall,3,2,data/images/leather_jacket.jpeg
+4,Olive Field Jacket,outerwear,green,casual|rugged,casual,fall,3,2,data/images/field_jacket.jpeg
+5,Navy Peacoat,outerwear,blue,classic|tailored,work|casual,winter,5,4,data/images/peacoat.jpg
+6,Gray Wool Overcoat,outerwear,gray,classic|tailored,work|formal,winter,5,5,data/images/overcoat.jpg
+7,Denim Jacket,outerwear,blue,casual|classic,casual,spring,2,1,data/images/denim_jacket.jpg
+8,Tan Chinos,bottom,tan,casual|classic,work|casual,all,1,3,data/images/tan_chino.jpeg
+9,Navy Dress Pants,bottom,blue,tailored|classic,work|formal,all,1,5,data/images/navy_dress_pant.jpg
+10,Black Dress Pants,bottom,black,tailored|classic,work|formal,all,1,5,data/images/black_dress_pant.jpeg
+11,Dark Wash Jeans,bottom,blue,casual|classic,casual|date,all,1,2,data/images/dark_denim.jpeg
+12,Light Wash Jeans,bottom,blue,casual|relaxed,casual,spring,1,1,data/images/light_denim.jpg
+13,Grey Wash Jeans,bottom,gray,casual|relaxed,casual,all,1,5,data/images/grey_denim.jpg
+14,Khaki Cargo Pants,bottom,tan,casual|rugged,casual,all,1,1,data/images/khk_cargo_pants.jpeg
+15,Khaki Chino Shorts,bottom,tan,casual|classic,casual,all,1,1,data/images/chino_short.jpg
+16,White Dress Shirt,top,white,classic|minimal,work|formal|date,all,1,5,data/images/dress_shirt.jpg
+17,Light Blue Oxford Shirt,top,blue,classic|preppy,work|casual|date,all,1,4,data/images/oxford_shirt.jpg
+18,White T-Shirt,top,white,minimal|basic,casual,all,1,1,data/images/white_tshirt.jpeg
+19,Black T-Shirt,top,black,minimal|basic,casual,all,1,1,data/images/black_tshirt.jpeg
+20,Navy Polo Shirt,top,blue,classic|casual,casual|work,spring,1,3,data/images/polo_shirt.jpg
+21,Burgundy Henley,top,red,casual|modern,casual|date,fall,2,2,data/images/henley.jpg
+22,Gray Crewneck Sweater,top,gray,minimal|classic,casual|work,fall,3,3,data/images/grey_crew.jpeg
+23,Navy V-Neck Sweater,top,blue,classic|preppy,work|casual,fall,3,3,data/images/navy_sweater.jpg
+24,Black Turtleneck,top,black,minimal|modern,casual|date|work,winter,3,4,data/images/turtleneck.jpg
+25,White Button-Down Shirt,top,white,minimal|tailored,work|date,all,1,4,data/images/white_shirt.jpg
+26,Cream Linen SS Shirt,top,white,minimal|casual,casual|date,all,1,2,data/images/cream_linen.jpeg
+27,Plaid Flannel Shirt,top,red,casual|rugged,casual,fall,2,1,data/images/plaid_shirt.jpg
+28,Cream Cable-Knit Sweater,top,white,classic|cozy,casual|date,winter,4,2,data/images/cream_sweater.jpeg
+29,Olive Utility Shirt,top,green,casual|rugged,casual,fall,1,2,data/images/utility_shirt.jpg
+30,Floral SS Button Down,top,blue,casual|modern,casual,all,1,1,data/images/floral_shirt.jpeg
+31,Black Leather Dress Shoes,shoe,black,classic|formal,work|formal|date,all,1,5,data/images/blk_dress_shoes.jpeg
+32,Brown Leather Brogues,shoe,brown,classic|formal,work|date,all,1,4,data/images/brown_loafers.jpg
+33,White Sneakers,shoe,white,minimal|modern,casual|date,all,1,1,data/images/white_sneakers.jpg
+34,Brown Chelsea Boots,shoe,brown,modern|sleek,casual|date|work,fall,2,3,data/images/chelsea_boot.jpeg
+35,Black Loafers,shoe,black,classic|minimal,work|casual,all,1,4,data/images/black_loafer.jpeg
+36,Navy Canvas Sneakers,shoe,blue,casual|classic,casual,spring,1,1,data/images/navy_sneaker.jpg
+37,Brown Leather Belt,accessory,brown,classic|minimal,work|casual|date,all,1,3,data/images/brown_belt.jpg
+38,Black Leather Belt,accessory,black,classic|minimal,work|formal|date,all,1,4,data/images/black_belt.jpg
+39,Navy Silk Tie,accessory,blue,classic|formal,work|formal,all,1,5,data/images/navy_tie.jpeg
+40,Burgundy Knit Tie,accessory,red,modern|textured,work|date,fall,1,4,data/images/burgundy_tie.jpeg
+41,Navy Chino Short,bottom,blue,classic|preppy,,spring,1,1,data/images/navy_short.jpg
+42,Light Denim Short,bottom,blue,casual|modern,,spring,1,1,data/images/denim_short.jpg
+43,Pink Polo Shirt,top,pink,classic|preppy,,spring,1,1,data/images/pink_polo.jpg
+44,Cream Textured Knit,top,white,classic|minimal,,spring,1,1,data/images/cream_crew.jpeg
+45,Graphic T Shirt,top,white,casual|relaxed,,spring,1,1,data/images/graphic_tshirt.jpeg

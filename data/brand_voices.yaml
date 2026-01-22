@@ -1,0 +1,21 @@
+brands:
+  BrandA:
+    style: "classic"
+    colors: ["white", "black", "navy"]
+    description: "Timeless elegance with a modern twist"
+  
+  BrandB:
+    style: "casual"
+    colors: ["blue", "gray", "beige"]
+    description: "Comfortable everyday wear"
+  
+  BrandC:
+    style: "edgy"
+    colors: ["black", "dark gray", "burgundy"]
+    description: "Bold and contemporary fashion"
+  
+  BrandD:
+    style: "sporty"
+    colors: ["white", "black", "gray"]
+    description: "Athletic and functional design"
+
