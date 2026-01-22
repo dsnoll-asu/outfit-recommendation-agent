@@ -53,6 +53,7 @@ def main() -> None:
     if generate_button and user_input:
         with st.spinner("Generating outfits..."):
             requirements = extract_requirements(user_input)
+            requirements["_seed"] = user_input
             preferences = extract_preferences(user_input)
 
             outfits = assemble_outfits(

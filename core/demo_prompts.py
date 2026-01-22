@@ -12,10 +12,10 @@ def get_demo_prompts() -> List[str]:
     return [
         "Create a casual outfit for a weekend brunch",
         "I need a formal outfit for a business meeting",
-        "Show me a party outfit in black and gold",
+        "Show me a party outfit in black and white",
         "Assemble a work-appropriate outfit under $200",
         "Create a summer casual outfit with blue colors",
-        "I'm going to a formal wedding"
+        "I'm going to a formal wedding and need to wear a tie"
     ]
 
 

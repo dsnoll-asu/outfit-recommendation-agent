@@ -13,7 +13,7 @@ from typing import Any, Dict, List, Optional, Tuple
 OCCASION_KEYWORDS = {
     "work": ["work", "office", "meeting", "presentation", "interview", "client", "conference"],
     "date": ["date", "dinner", "night out", "restaurant"],
-    "casual": ["casual", "weekend", "brunch", "coffee", "errands", "hangout"],
+    "casual": ["casual", "weekend", "brunch", "coffee", "errands", "hangout", "bbq"],
     "formal": ["formal", "black tie", "gala", "wedding", "cocktail", "event"],
     "travel": ["travel", "airport", "flight", "plane", "hotel", "vacation"],
     "outdoors": ["outdoor", "hike", "trail", "camp", "festival"],
@@ -140,13 +140,13 @@ def _temperature_to_warmth(temp_f: int) -> int:
     """
     Convert temp to warmth rating 1-5 (rough heuristic).
     """
-    if temp_f <= 35:
+    if temp_f <= 25:
         return 5
     if temp_f <= 50:
         return 4
-    if temp_f <= 65:
+    if temp_f <= 60:
         return 3
-    if temp_f <= 80:
+    if temp_f <= 75:
         return 2
     return 1
 
@@ -189,7 +189,7 @@ def extract_requirements(text: str) -> Dict[str, Any]:
     elif occasion in ("travel",):
         formality_target = 2
     elif occasion in ("casual", "outdoors"):
-        formality_target = 2
+        formality_target = 1
 
     budget = _extract_budget(t)
 

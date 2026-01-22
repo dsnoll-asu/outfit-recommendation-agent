@@ -7,13 +7,13 @@ from .models import Outfit, Item
 
 
 WEIGHTS = {
-    "completeness": 0.10,
-    "occasion": 0.25,
+    "completeness": 0.05,
+    "occasion": 0.15,
     "style": 0.25,
     "color": 0.15,
-    "seasonality": 0.10,
+    "seasonality": 0.15,
     "warmth": 0.10,
-    "formality": 0.05,
+    "formality": 0.15,
 }
 
 NEUTRALS = {"black", "white", "gray", "navy", "beige", "brown"}

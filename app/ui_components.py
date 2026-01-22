@@ -72,9 +72,14 @@ def render_demo_prompts(prompts: List[str]) -> None:
         prompts: List of demo prompt strings
     """
     st.write("**Try these examples:**")
-    cols = st.columns(len(prompts))
-    for i, prompt in enumerate(prompts):
-        with cols[i]:
-            if st.button(prompt, key=f"demo_{i}"):
-                st.session_state.user_input = prompt
+    
+    buttons_per_row = 1
+    for i in range(0, len(prompts), buttons_per_row):
+        row_prompts = prompts[i:i + buttons_per_row]
+        cols = st.columns(len(row_prompts))
+
+        for col, prompt in zip(cols, row_prompts):
+            with col:
+                if st.button(prompt, key=f"demo_{i}"):
+                    st.session_state.user_input = prompt
 

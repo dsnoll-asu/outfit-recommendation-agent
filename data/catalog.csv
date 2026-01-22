@@ -24,7 +24,7 @@ item_id,name,category,color_family,style_tags,occasion_tags,seasonality,warmth,f
 23,Navy V-Neck Sweater,top,blue,classic|preppy,work|casual,fall,3,3,data/images/navy_sweater.jpg
 24,Black Turtleneck,top,black,minimal|modern,casual|date|work,winter,3,4,data/images/turtleneck.jpg
 25,White Button-Down Shirt,top,white,minimal|tailored,work|date,all,1,4,data/images/white_shirt.jpg
-26,Cream Linen SS Shirt,top,white,minimal|casual,casual|date,all,1,2,data/images/cream_linen.jpeg
+26,Cream Linen SS Shirt,top,white,minimal|casual,casual|date,spring | summer,1,2,data/images/cream_linen.jpeg
 27,Plaid Flannel Shirt,top,red,casual|rugged,casual,fall,2,1,data/images/plaid_shirt.jpg
 28,Cream Cable-Knit Sweater,top,white,classic|cozy,casual|date,winter,4,2,data/images/cream_sweater.jpeg
 29,Olive Utility Shirt,top,green,casual|rugged,casual,fall,1,2,data/images/utility_shirt.jpg
@@ -37,10 +37,10 @@ item_id,name,category,color_family,style_tags,occasion_tags,seasonality,warmth,f
 36,Navy Canvas Sneakers,shoe,blue,casual|classic,casual,spring,1,1,data/images/navy_sneaker.jpg
 37,Brown Leather Belt,accessory,brown,classic|minimal,work|casual|date,all,1,3,data/images/brown_belt.jpg
 38,Black Leather Belt,accessory,black,classic|minimal,work|formal|date,all,1,4,data/images/black_belt.jpg
-39,Navy Silk Tie,accessory,blue,classic|formal,work|formal,all,1,5,data/images/navy_tie.jpeg
-40,Burgundy Knit Tie,accessory,red,modern|textured,work|date,fall,1,4,data/images/burgundy_tie.jpeg
-41,Navy Chino Short,bottom,blue,classic|preppy,,spring,1,1,data/images/navy_short.jpg
-42,Light Denim Short,bottom,blue,casual|modern,,spring,1,1,data/images/denim_short.jpg
-43,Pink Polo Shirt,top,pink,classic|preppy,,spring,1,1,data/images/pink_polo.jpg
-44,Cream Textured Knit,top,white,classic|minimal,,spring,1,1,data/images/cream_crew.jpeg
-45,Graphic T Shirt,top,white,casual|relaxed,,spring,1,1,data/images/graphic_tshirt.jpeg
+39,Navy Silk Tie,accessory,blue,classic|formal,formal | work,all,1,5,data/images/navy_tie.jpeg
+40,Burgundy Knit Tie,accessory,red,modern|textured,formal | work,fall,1,4,data/images/burgundy_tie.jpeg
+41,Navy Chino Short,bottom,blue,classic|preppy,casual,spring | summer,1,1,data/images/navy_short.jpg
+42,Light Denim Short,bottom,blue,casual|modern,casual|date,spring | summer,1,1,data/images/denim_short.jpg
+43,Pink Polo Shirt,top,pink,classic|preppy,casual|work,spring | summer,1,2,data/images/pink_polo.jpg
+44,Cream Textured Knit,top,white,classic|minimal,casual|date,spring | summer,1,1,data/images/cream_crew.jpeg
+45,Graphic T Shirt,top,white,casual|relaxed,casual,spring | summer,1,1,data/images/graphic_tshirt.jpeg
